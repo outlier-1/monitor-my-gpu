@@ -3,8 +3,8 @@ from twilio.rest import Client
 
 class SMSAPI:
     def __init__(self):
-        self.account_sid = "ACdd5453a78d3fe9fa074d454ef7e0e00d"
-        self.auth_token = "5786dbd93a95047b2d285b980b8cc6a5"
+        self.account_sid = "" # Your twilio id
+        self.auth_token = "" # Your twilio pw
 
     Message_Receivers = {
         "Ömer Miraç Baydemir": "+905342021637"
